@@ -2,6 +2,7 @@
 
 namespace App\Controller;
 
+use Doctrine\DBAL\Types\TextType;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\Routing\Annotation\Route;
@@ -32,8 +33,21 @@ class HomeController extends AbstractController
         //Request
         //$name = $request->get('name');
 
+        //Form create FormBuilder and createForm
+        $form = $this->createFormBuilder()
+            ->add('fullname', TextType::class)
+            ->getForm()
+        ;
+
+        $person = [
+            'name'=>'Paweł',
+            'lastname'=>'Urbańczyk',
+            'age'=>29,
+
+        ];
         return $this->render('home/greet.htm.twig',[
-            'name' => $name
+            'person'=> $person,
+            'user_form'  => $form
         ]);
     }
 }

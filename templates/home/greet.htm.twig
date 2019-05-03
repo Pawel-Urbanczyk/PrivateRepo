@@ -1,1 +1,10 @@
-<h1>Hello User {{ name }}</h1>
+{% extends 'base.html.twig' %}
+
+{% block title %}WITOJCIE {{ person.name }}{% endblock %}
+
+{% block body %}
+    <h1>Hello User {{ person.name }} {{ person.lastname }}, masz {{ person.age }} lat</h1>
+
+    <h1>User Form</h1>
+    {{ form(user_form) }}
+{% endblock %}
