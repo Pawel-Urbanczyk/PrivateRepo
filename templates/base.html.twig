@@ -3,12 +3,19 @@
     <head>
         <meta charset="UTF-8">
         <title>{% block title %}Welcome This is first practice project!{% endblock %}</title>
-        {% block stylesheets %}{% endblock %}
+        {% block stylesheets %}
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+        {% endblock %}
     </head>
     <body>
-        {# navigation #}
-        <h2>Navigation Bar</h2>
-        {% block body %}{% endblock %}
+       <div class="container">
+
+           {# navigation #}
+           <h2>Navigation Bar</h2>
+
+           {% block body %}{% endblock %}
+
+       </div>
         {% block javascripts %}{% endblock %}
     </body>
 </html>
