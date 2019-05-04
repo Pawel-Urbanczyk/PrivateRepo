@@ -59,7 +59,7 @@ class HomeController extends AbstractController
         $em = $this->getDoctrine()->getManager();
 
         $retreivedPost = $em->getRepository(Post::class)->findOneBy([
-            'id' => 4
+            'id' => 5
         ]);
 
 
