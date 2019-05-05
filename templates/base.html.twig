@@ -13,7 +13,9 @@
 
            {# navigation #}
            <h2>Navigation Bar</h2>
-           <a href="{{ path('homeindex') }}">Strona Główna</a>
+           <a href="{{ path('homeindex') }}">Strona Główna</a><br>
+           <a href="{{ path('app_login') }}">Login</a><br>
+           <a href="{{ path('app_logout') }}">Logout</a><br>
 
            {% block body %}{% endblock %}
 
