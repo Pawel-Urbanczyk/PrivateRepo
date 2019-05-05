@@ -4,6 +4,8 @@ namespace App\Controller;
 
 use App\Entity\Post;
 use App\Form\PostType;
+use App\Services\Fetcher;
+use App\Services\Paginator;
 use Symfony\Component\Form\Extension\Core\Type\IntegerType;
 use Symfony\Component\Form\Extension\Core\Type\SubmitType;
 use Symfony\Component\HttpFoundation\Request;
@@ -36,6 +38,8 @@ class HomeController extends AbstractController
     {
         //Request
         //$name = $request->get('name');
+
+        //URL: https://api.coinmarketcap.com/v2/listings/
 
         //Form create FormBuilder and createForm
 //        $form = $this->createFormBuilder()
@@ -91,10 +95,16 @@ class HomeController extends AbstractController
             $em->flush();
         }
 
+        //Paginator Service
+       // $result = $fetcher->get('https://api.coinmarketcap.com/v2/listings/');
+       // $partialArray = $paginator->getPartial($result['data'], 100, 100);
+
+
         return $this->render('home/greet.htm.twig',[
             //'person'=> $person,
             'user_form'  => $form->createView(),
             'image'=>$image
+            //'partial_array'=>$partialArray
             //'post'=>$retreivedPost
         ]);
     }

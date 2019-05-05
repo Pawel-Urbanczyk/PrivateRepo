@@ -1,0 +1,11 @@
+<?php
+
+namespace App\Services;
+
+class Paginator
+{
+    public function getPartial($data, $offset, $lenght)
+    {
+        return array_slice($data, $offset, $lenght);
+    }
+}
