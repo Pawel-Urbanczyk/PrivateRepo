@@ -1,0 +1,27 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello!{% endblock %}
+
+{% block body %}
+<h1>Cars Form</h1>
+    <a href="{{ path('new_car') }}">Dodaj Samochod</a><br>
+    <a href="{{ path('price_index') }}">Dodaj Cene</a><br>
+
+    {% for car in cars %}
+       <table class="table table-stripped">
+            <tr>
+                <td> {{ car.id }} </td>
+                <td> {{ car.mark }} </td>
+                <td> {{ car.model }} </td>
+                <td> {{ car.year }} </td>
+                <td> {{ car.price }} </td>
+                <td> {{ car.price.currency }} </td>
+            </tr>
+        </table>
+    {% else %}
+        <tr>
+            <td colspan="4">no records found</td>
+        </tr>
+    {% endfor %}
+
+{% endblock %}
