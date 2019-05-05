@@ -4,7 +4,8 @@
 
 {% block body %}
     <h1>Hello User</h1>
-
+    <img src="{{ asset('uploads/') ~ image }}" alt="">
+    
     <h1>User Form</h1>
     {{ form_start(user_form) }}
 

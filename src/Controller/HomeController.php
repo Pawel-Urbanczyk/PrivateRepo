@@ -71,8 +71,20 @@ class HomeController extends AbstractController
         $post = new Post();
         $form = $this->createForm(PostType::class, $post);
         $form->handleRequest($request);
+        $image = '1e2aa7f1eb504116f47167c229e716db.jpeg';
 
         if($form->isSubmitted() && $form->isValid()){
+
+            //File Uploading
+            $file = $request->files->get('post')['my_file'];
+            $uploads_directory = $this->getParameter('uploads_directory');
+            $file_name = md5(uniqid()).'.'.$file->guessExtension();
+            $file->move(
+                $uploads_directory,
+                $file_name
+            );
+
+
             $em = $this->getDoctrine()->getManager();
 
             $em->persist($post);
@@ -82,6 +94,7 @@ class HomeController extends AbstractController
         return $this->render('home/greet.htm.twig',[
             //'person'=> $person,
             'user_form'  => $form->createView(),
+            'image'=>$image
             //'post'=>$retreivedPost
         ]);
     }
