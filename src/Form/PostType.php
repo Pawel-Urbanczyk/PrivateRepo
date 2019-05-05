@@ -3,6 +3,7 @@
 namespace App\Form;
 
 use App\Entity\Post;
+use Symfony\Bridge\Doctrine\Form\Type\EntityType;
 use Symfony\Component\Form\AbstractType;
 use Symfony\Component\Form\Extension\Core\Type\SubmitType;
 use Symfony\Component\Form\Extension\Core\Type\TextareaType;
@@ -26,6 +27,9 @@ class PostType extends AbstractType
                     'placeholder'=>'Enter The Description Here',
                     'class'=>'custom_class'
                 ]
+            ])
+            ->add('category',EntityType::class, [
+                    'class' => 'App\Entity\Category',
             ])
             ->add('submit', SubmitType::class,[
                 'attr'=>[

@@ -3,6 +3,7 @@
 namespace App\Controller;
 
 use App\Entity\Post;
+use App\Form\PostType;
 use Symfony\Component\Form\Extension\Core\Type\IntegerType;
 use Symfony\Component\Form\Extension\Core\Type\SubmitType;
 use Symfony\Component\HttpFoundation\Request;
@@ -29,48 +30,69 @@ class HomeController extends AbstractController
     }
 
     /**
-     * @Route("/helloUser/{name}", name="hello_user", methods={"GET", "POST"})
+     * @Route("/newpost", name="new_post")
      */
-    public function helloUser(Request $request, $name)
+    public function newpost(Request $request)
     {
         //Request
         //$name = $request->get('name');
 
         //Form create FormBuilder and createForm
-        $form = $this->createFormBuilder()
-            ->add('fullname')
-            ->add('age', IntegerType::class )
-            ->add('Submit', SubmitType::class)
-            ->getForm()
-        ;
+//        $form = $this->createFormBuilder()
+//            ->add('fullname')
+//            ->add('age', IntegerType::class )
+//            ->add('Submit', SubmitType::class)
+//            ->getForm()
+//        ;
 
-        $person = [
-            'name'=>'Paweł',
-            'lastname'=>'Urbańczyk',
-            'age'=>29,
-
-        ];
+//        $person = [
+//            'name'=>'Paweł',
+//            'lastname'=>'Urbańczyk',
+//            'age'=>29,
+//
+//        ];
 
         //Store stuff in DB
-        $post = new Post();
-        $post->setTitle('Overpower');
-        $post->setDescription('YouTube 4 life!');
-
-        $em = $this->getDoctrine()->getManager();
-
-        $retreivedPost = $em->getRepository(Post::class)->findOneBy([
-            'id' => 5
-        ]);
+//        $post = new Post();
+//        $post->setTitle('Overpower');
+//        $post->setDescription('YouTube 4 life!');
+//
+//        $em = $this->getDoctrine()->getManager();
+//
+//        $retreivedPost = $em->getRepository(Post::class)->findOneBy([
+//            'id' => 5
+//        ]);
 
 
         //$em->persist($post);
         //$em->remove($retreivedPost);
         //$em->flush();
 
+        $post = new Post();
+        $form = $this->createForm(PostType::class, $post);
+        $form->handleRequest($request);
+
+        if($form->isSubmitted() && $form->isValid()){
+            $em = $this->getDoctrine()->getManager();
+
+            $em->persist($post);
+            $em->flush();
+        }
+
         return $this->render('home/greet.htm.twig',[
-            'person'=> $person,
+            //'person'=> $person,
             'user_form'  => $form->createView(),
-            'post'=>$retreivedPost
+            //'post'=>$retreivedPost
+        ]);
+    }
+
+    /**
+     * @Route("/showpost/{id}", name ="showpost")
+     */
+    public function showPost(Request $request, Post $post){
+
+        return $this->render('home/show_post.html.twig', [
+            'post'=>$post
         ]);
     }
 }

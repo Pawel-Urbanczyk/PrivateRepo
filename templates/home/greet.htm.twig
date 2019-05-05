@@ -1,15 +1,14 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}WITOJCIE {{ person.name }}{% endblock %}
+{% block title %}WITOJCIE{% endblock %}
 
 {% block body %}
-    <h1>Hello User {{ person.name }} {{ person.lastname }}, masz {{ person.age }} lat</h1>
+    <h1>Hello User</h1>
 
     <h1>User Form</h1>
     {{ form_start(user_form) }}
-        {{ form_widget(user_form.fullname) }}
+
     {{ form_end(user_form) }}
 
-    <h1>Render The Post From DB:</h1>
-    <h2>{{ post.id }}, {{ post.title }}, {{ post.description }}</h2>
+
 {% endblock %}
