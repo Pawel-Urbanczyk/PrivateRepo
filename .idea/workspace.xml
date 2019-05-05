@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ff99a8bb-f5fb-4b9d-bf06-01d5cd41bef6" name="Default" comment="image uploading">
-      <change afterPath="$PROJECT_DIR$/src/Services/Fetcher.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Services/Paginator" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/services.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/home/greet.htm.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home/greet.htm.twig" afterDir="false" />
-    </list>
+    <list default="true" id="ff99a8bb-f5fb-4b9d-bf06-01d5cd41bef6" name="Default" comment="simple service examples" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,57 +15,7 @@
     <favorites_list name="practice" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Controller/HomeController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1258">
-              <caret line="36" column="44" selection-start-line="36" selection-start-column="44" selection-end-line="36" selection-end-column="44" />
-              <folding>
-                <element signature="e#34#54#0#PHP" expanded="true" />
-                <element signature="e#3122#3148#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/home/greet.htm.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Services/Fetcher.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Services/Paginator">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/services.yaml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="524">
-              <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -101,8 +44,8 @@
         <option value="$PROJECT_DIR$/src/Services/Paginator" />
         <option value="$PROJECT_DIR$/src/Controller/HomeController.php" />
         <option value="$PROJECT_DIR$/templates/home/greet.htm.twig" />
-        <option value="$PROJECT_DIR$/config/services.yaml" />
         <option value="$PROJECT_DIR$/src/Services/Fetcher.php" />
+        <option value="$PROJECT_DIR$/config/services.yaml" />
       </list>
     </option>
   </component>
@@ -271,7 +214,7 @@
       <workItem from="1556967222240" duration="6912000" />
       <workItem from="1557049663001" duration="6753000" />
       <workItem from="1557059225183" duration="1323000" />
-      <workItem from="1557060561620" duration="5324000" />
+      <workItem from="1557060561620" duration="6161000" />
     </task>
     <task id="LOCAL-00001" summary="some forms actions in database">
       <created>1556911945938</created>
@@ -315,11 +258,18 @@
       <option name="project" value="LOCAL" />
       <updated>1557062647977</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="simple service examples">
+      <created>1557066466046</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1557066466046</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39899000" />
+    <option name="totallyTimeSpent" value="40736000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -332,9 +282,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4969697" visible="true" weight="0.15298508" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4969697" visible="true" weight="0.15298508" />
       <window_info id="Structure" order="1" sideWeight="0.5030303" side_tool="true" weight="0.14658849" />
       <window_info id="Favorites" order="2" sideWeight="0.5030303" side_tool="true" weight="0.14658849" />
       <window_info anchor="bottom" id="Messages" weight="0.32936078" />
@@ -347,7 +296,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32897604" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4989339" visible="true" weight="0.28494042" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.4989339" visible="true" weight="0.2751896" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32827735" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5010661" side_tool="true" weight="0.28494042" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -406,7 +355,8 @@
     <MESSAGE value="commit" />
     <MESSAGE value="added webpack-encore" />
     <MESSAGE value="image uploading" />
-    <option name="LAST_COMMIT_MESSAGE" value="image uploading" />
+    <MESSAGE value="simple service examples" />
+    <option name="LAST_COMMIT_MESSAGE" value="simple service examples" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/public/index.php">
@@ -708,17 +658,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/services.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="524">
-          <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Services/Fetcher.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/services.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="489">
+          <caret line="31" column="44" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
         </state>
       </provider>
     </entry>
