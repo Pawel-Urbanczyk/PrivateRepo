@@ -13,6 +13,16 @@
         </div>
     {% endfor %}
 
+    {% for all in allegro %}
+    <table class="table table-stripped">
+        <tr>
+            <td> {{ all.name }} </td>
+            <td> {{ all.fileName }} </td>
+            <td> {{ all.directory }} </td>
+        </tr>
+    </table>
+    {% endfor %}
+
 <div class="example-wrapper">
 
 </div>

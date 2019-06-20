@@ -4,6 +4,7 @@ namespace App\Controller;
 
 use App\Entity\AllegroCSV;
 use App\Form\AllegroType;
+use App\Repository\AllegroCSVRepository;
 use function Couchbase\defaultDecoder;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Request;
@@ -14,10 +15,11 @@ class AllegroController extends AbstractController
     /**
      * @Route("/allegro", name="allegro")
      */
-    public function index()
+    public function index(AllegroCSVRepository $allegroCSVRepository)
     {
         return $this->render('allegro/index.html.twig', [
             'controller_name' => 'AllegroController',
+            'allegro'=>$allegroCSVRepository->findAll(),
         ]);
     }
 
