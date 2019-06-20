@@ -29,9 +29,10 @@ class PostType extends AbstractType
                     'class'=>'custom_class'
                 ]
             ])
-            ->add('my_file', FileType::class,[
+            ->add('my_files', FileType::class,[
                 'mapped'=>false,
-                'label'=>'Please upload a favorite image'
+                'label'=>'Please upload a favorite image',
+                'multiple'=>true
             ])
             ->add('category',EntityType::class, [
                     'class' => 'App\Entity\Category',
