@@ -33,7 +33,7 @@ class AllegroController extends AbstractController
 
         if($form->isSubmitted() && $form->isValid()){
 
-            $file = $request->files->get('post')['allegro'];
+            $file = $request->files->get('allegro')['allegro'];
 
             $uploads_directory = $this->getParameter('uploads_directory');
             $allegro->setDirectory($uploads_directory);

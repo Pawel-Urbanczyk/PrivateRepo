@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ff99a8bb-f5fb-4b9d-bf06-01d5cd41bef6" name="Default" comment="Cars">
-      <change afterPath="$PROJECT_DIR$/src/Controller/AllegroController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/AllegroCSV.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Form/AllegroType.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/AllegroCSVRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/allegro/index.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/allegro/new.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/services.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/AllegroController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/AllegroController.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,18 +18,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Controller/AllegroController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="50" column="21" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
-              <folding>
-                <element signature="e#34#60#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Form/AllegroType.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -49,43 +30,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Entity/Car.php">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Controller/AllegroController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Form/CarsType.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="423">
-              <caret line="22" column="42" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
+            <state relative-caret-position="350">
+              <caret line="35" column="36" selection-start-line="35" selection-start-column="36" selection-end-line="35" selection-end-column="36" />
               <folding>
-                <element signature="e#28#47#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Form/CategoryType.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Form/PostType.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="575">
-              <caret line="31" column="19" lean-forward="true" selection-start-line="31" selection-start-column="11" selection-end-line="34" selection-end-column="14" />
-              <folding>
-                <element signature="e#28#48#0#PHP" expanded="true" />
+                <element signature="e#34#60#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -136,8 +87,8 @@
         <option value="$PROJECT_DIR$/templates/allegro/index.html.twig" />
         <option value="$PROJECT_DIR$/templates/allegro/new.html.twig" />
         <option value="$PROJECT_DIR$/config/services.yaml" />
-        <option value="$PROJECT_DIR$/src/Controller/AllegroController.php" />
         <option value="$PROJECT_DIR$/src/Form/AllegroType.php" />
+        <option value="$PROJECT_DIR$/src/Controller/AllegroController.php" />
       </list>
     </option>
   </component>
@@ -361,7 +312,7 @@
       <workItem from="1559070395527" duration="324000" />
       <workItem from="1559070777708" duration="14000" />
       <workItem from="1559070990060" duration="83000" />
-      <workItem from="1561046317790" duration="6509000" />
+      <workItem from="1561046317790" duration="7147000" />
     </task>
     <task id="LOCAL-00001" summary="some forms actions in database">
       <created>1556911945938</created>
@@ -437,7 +388,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58425000" />
+    <option name="totallyTimeSpent" value="59063000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -450,6 +401,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4969697" visible="true" weight="0.20842217" />
       <window_info id="Structure" order="1" sideWeight="0.5030303" side_tool="true" weight="0.14658849" />
@@ -861,12 +813,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Form/PostType.php">
+    <entry file="file://$PROJECT_DIR$/src/Form/CarsType.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="31" column="19" lean-forward="true" selection-start-line="31" selection-start-column="11" selection-end-line="34" selection-end-column="14" />
+        <state relative-caret-position="423">
+          <caret line="22" column="42" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
           <folding>
-            <element signature="e#28#48#0#PHP" expanded="true" />
+            <element signature="e#28#47#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -878,12 +830,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Form/CarsType.php">
+    <entry file="file://$PROJECT_DIR$/src/Form/PostType.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="22" column="42" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
+        <state relative-caret-position="575">
+          <caret line="31" column="19" lean-forward="true" selection-start-line="31" selection-start-column="11" selection-end-line="34" selection-end-column="14" />
           <folding>
-            <element signature="e#28#47#0#PHP" expanded="true" />
+            <element signature="e#28#48#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -900,8 +852,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Controller/AllegroController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="50" column="21" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
+        <state relative-caret-position="350">
+          <caret line="35" column="36" selection-start-line="35" selection-start-column="36" selection-end-line="35" selection-end-column="36" />
           <folding>
             <element signature="e#34#60#0#PHP" expanded="true" />
           </folding>
