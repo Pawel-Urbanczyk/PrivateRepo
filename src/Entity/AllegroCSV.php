@@ -17,7 +17,7 @@ class AllegroCSV
     private $id;
 
     /**
-     * @ORM\Column(type="string", length=255)
+     * @ORM\Column(type="string", length=255, nullable=true)
      */
     private $name;
 
@@ -25,6 +25,46 @@ class AllegroCSV
      * @ORM\Column(type="string", length=255)
      */
     private $fileName;
+    /**
+     * @ORM\Column(type="datetime", nullable=true)
+     */
+    private $startDate;
+
+    /**
+     * @return mixed
+     */
+    public function getStartDate()
+    {
+        return $this->startDate;
+    }
+
+    /**
+     * @param mixed $startDate
+     */
+    public function setStartDate($startDate): void
+    {
+        $this->startDate = $startDate;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getEndDate()
+    {
+        return $this->endDate;
+    }
+
+    /**
+     * @param mixed $endDate
+     */
+    public function setEndDate($endDate): void
+    {
+        $this->endDate = $endDate;
+    }
+    /**
+     * @ORM\Column(type="datetime", nullable=true)
+     */
+    private $endDate;
 
     /**
      * @ORM\Column(type="string", length=255)

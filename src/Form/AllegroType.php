@@ -4,6 +4,7 @@ namespace App\Form;
 
 use App\Entity\AllegroCSV;
 use Symfony\Component\Form\AbstractType;
+use Symfony\Component\Form\Extension\Core\Type\DateType;
 use Symfony\Component\Form\Extension\Core\Type\FileType;
 use Symfony\Component\Form\Extension\Core\Type\SubmitType;
 use Symfony\Component\Form\Extension\Core\Type\TextType;
@@ -15,16 +16,16 @@ class AllegroType extends AbstractType
     public function buildForm(FormBuilderInterface $builder, array $options)
     {
         $builder
-            ->add('name', TextType::class, [
-                'label' => 'PLEASE CHOOSE NAME OF THAT FILE',
-                'attr'=>[
-                    'placeholder'=>'SELECT NAME',
-                    'class'=>'form_control'
-                ]
-            ])
+
             ->add('allegro', FileType::class,[
                 'mapped'=>false,
                 'label'=>'Please upload a favorite image'
+            ])
+            ->add('startDate', DateType::class,[
+
+            ])
+            ->add('endDate', DateType::class,[
+
             ])
             ->add('Submit', SubmitType::class,[
                 'attr'=>[

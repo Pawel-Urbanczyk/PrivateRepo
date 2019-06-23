@@ -17,11 +17,51 @@
     <table class="table table-stripped">
         <tr>
             <td> {{ all.name }} </td>
+            <td> {{ all.startDate|date("Y/m/d") }} </td>
+            <td> {{ all.endDate|date("Y/m/d") }} </td>
             <td> {{ all.fileName }} </td>
             <td> {{ all.directory }} </td>
         </tr>
     </table>
     {% endfor %}
+
+
+    <h1>Program bonusowy - Prowizja nawet 0,5% - Allegro</h1>
+
+    <div class="container">
+        <table class="table table-stripped">
+            <thead>
+            <tr>
+                <td>dzial</td>
+                <td>nazwa</td>
+                <td>ean</td>
+                <td>cena</td>
+                <td>min_liczba_sztuk</td>
+                <td>prowizja</td>
+                <td>poprzednia_cena</td>
+                <td>poprzednia_prowizja</td>
+                <td>komentarz_cena</td>
+                <td>komentarz_prowizja</td>
+            </tr>
+            </thead>
+            <tbody>
+            {% for bonus in bonusik %}
+            <tr>
+                <td>{{ bonus.dzial }}</td>
+                <td>{{ bonus.nazwa }}</td>
+                <td>{{ bonus.eAN }}</td>
+                <td>{{ bonus.cena }}</td>
+                <td>{{ bonus.minLiczbaSztuk }}</td>
+                <td>{{ bonus.prowizja }}</td>
+                <td>{{ bonus.poprzedniaCena }}</td>
+                <td>{{ bonus.poprzedniaProwizja }}</td>
+                <td>{{ bonus.komentarzCena }}</td>
+                <td>{{ bonus.komentarzProwizja }}</td>
+            </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    </div>
 
 <div class="example-wrapper">
 

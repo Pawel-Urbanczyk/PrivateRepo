@@ -2,8 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ff99a8bb-f5fb-4b9d-bf06-01d5cd41bef6" name="Default" comment="Cars">
-      <change beforePath="$PROJECT_DIR$/src/Controller/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Form/PostType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/PostType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entity/Bonus.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Repository/BonusRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/practice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/practice.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/services.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/AllegroController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/AllegroController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/AllegroCSV.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/AllegroCSV.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Form/AllegroType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/AllegroType.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/allegro/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/allegro/index.html.twig" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,41 +29,59 @@
     <favorites_list name="practice" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/Controller/HomeController.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="375">
-                  <caret line="173" column="59" selection-start-line="173" selection-start-column="59" selection-end-line="173" selection-end-column="59" />
-                  <folding>
-                    <element signature="e#34#54#0#PHP" expanded="true" />
-                    <element signature="e#3122#3148#0#PHP" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/Form/PostType.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="575">
-                  <caret line="34" column="32" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
-                  <folding>
-                    <element signature="e#28#48#0#PHP" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Controller/AllegroController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1550">
+              <caret line="104" column="32" selection-start-line="104" selection-start-column="32" selection-end-line="104" selection-end-column="32" />
+              <folding>
+                <element signature="e#34#60#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Entity/AllegroCSV.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="25">
+              <caret line="64" column="17" selection-start-line="64" selection-start-column="17" selection-end-line="64" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Form/AllegroType.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+              <folding>
+                <element signature="e#28#54#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/allegro/index.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="500">
+              <caret line="58" column="28" selection-start-line="58" selection-start-column="28" selection-end-line="58" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Entity/Bonus.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="138" column="29" selection-start-line="138" selection-start-column="29" selection-end-line="138" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -93,12 +122,14 @@
         <option value="$PROJECT_DIR$/src/Entity/Price.php" />
         <option value="$PROJECT_DIR$/templates/cars/index.html.twig" />
         <option value="$PROJECT_DIR$/templates/allegro/new.html.twig" />
-        <option value="$PROJECT_DIR$/config/services.yaml" />
-        <option value="$PROJECT_DIR$/src/Form/AllegroType.php" />
-        <option value="$PROJECT_DIR$/src/Controller/AllegroController.php" />
-        <option value="$PROJECT_DIR$/templates/allegro/index.html.twig" />
         <option value="$PROJECT_DIR$/src/Form/PostType.php" />
         <option value="$PROJECT_DIR$/src/Controller/HomeController.php" />
+        <option value="$PROJECT_DIR$/src/Form/AllegroType.php" />
+        <option value="$PROJECT_DIR$/src/Entity/AllegroCSV.php" />
+        <option value="$PROJECT_DIR$/public/uploads/xls_program_allegro_lista-produktow-prowizja-nawet-05_18-06-01-07-2019.csv.txt" />
+        <option value="$PROJECT_DIR$/templates/allegro/index.html.twig" />
+        <option value="$PROJECT_DIR$/config/services.yaml" />
+        <option value="$PROJECT_DIR$/src/Controller/AllegroController.php" />
       </list>
     </option>
   </component>
@@ -178,6 +209,7 @@
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php72" />
       <path value="$PROJECT_DIR$/vendor/egulias/email-validator" />
       <path value="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/vendor/league/csv" />
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
@@ -191,17 +223,13 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="practice" type="b2602c69:ProjectViewProjectNode" />
               <item name="practice" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="practice" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="practice" type="b2602c69:ProjectViewProjectNode" />
@@ -282,14 +310,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SearchEverywhereHistoryKey" value="Req&#9;null&#9;null&#10;controlle&#9;FILE&#9;file://D:/Programy/xampp/htdocs/symfony/practice/vendor/symfony/framework-bundle/Controller/ControllerTrait.php" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/templates/allegro" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/uploads" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -297,6 +324,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Programy\xampp\htdocs\symfony\practice\public\uploads" />
       <recent name="D:\Programy\xampp\htdocs\symfony\practice\templates\allegro" />
     </key>
   </component>
@@ -334,7 +362,9 @@
       <workItem from="1559070395527" duration="324000" />
       <workItem from="1559070777708" duration="14000" />
       <workItem from="1559070990060" duration="83000" />
-      <workItem from="1561046317790" duration="8147000" />
+      <workItem from="1561046317790" duration="8271000" />
+      <workItem from="1561282127489" duration="9783000" />
+      <workItem from="1561293712318" duration="2701000" />
     </task>
     <task id="LOCAL-00001" summary="some forms actions in database">
       <created>1556911945938</created>
@@ -410,7 +440,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60063000" />
+    <option name="totallyTimeSpent" value="72671000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -425,12 +455,12 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4969697" visible="true" weight="0.20842217" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4969697" visible="true" weight="0.21268657" />
       <window_info id="Structure" order="1" sideWeight="0.5030303" side_tool="true" weight="0.14658849" />
       <window_info id="Favorites" order="2" sideWeight="0.5030303" side_tool="true" weight="0.14658849" />
       <window_info anchor="bottom" id="Messages" order="0" weight="0.32936078" />
       <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.32936078" />
       <window_info anchor="bottom" id="Run" order="3" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
@@ -526,62 +556,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Cars" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/uploads/d1e0454cdfbe0df87012251df4f332ce.jpeg" />
-    <entry file="file://$PROJECT_DIR$/public/uploads/da85cb8e2a9c6b4437de06feef8cd120.jpeg" />
-    <entry file="file://$PROJECT_DIR$/src/Services/Paginator">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Services/Fetcher.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/packages/prod/webpack_encore.yaml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/packages/dev/swiftmailer.yaml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/packages/swiftmailer.yaml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Repository/UserRepository.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/doctrine/orm/lib/Doctrine/ORM/EntityManagerInterface.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="32" column="10" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/SecurityController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
-          <folding>
-            <element signature="e#34#99#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Security/CustomAuthenticator.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="41" column="25" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/security/login.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="159">
@@ -731,9 +705,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/uploads/1e2aa7f1eb504116f47167c229e716db.jpeg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Controller/FormController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -752,13 +723,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/services.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Controller/CategoryController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="500">
@@ -766,9 +730,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/uploads/ac950283389c5ff8ef04c363400c5f72.jpeg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/public/uploads/ac950283389c5ff8ef04c363400c5f72.jpeg" />
     <entry file="file://$PROJECT_DIR$/src/Entity/Car.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
@@ -793,30 +755,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/uploads/69a1df9f5a3bf542bc51e1602ae0ea8f.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Form/AllegroType.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
-          <folding>
-            <element signature="e#28#54#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/AllegroController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
-          <folding>
-            <element signature="e#34#60#0#PHP" expanded="true" />
-            <element signature="e#461#486#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/public/uploads/69a1df9f5a3bf542bc51e1602ae0ea8f.txt" />
     <entry file="file://$PROJECT_DIR$/templates/cars/index.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -841,23 +780,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/allegro/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-          <folding>
-            <element signature="e#12#26#0#Twig" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Entity/AllegroCSV.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Form/PostType.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="575">
@@ -868,13 +790,98 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/uploads/6f014456447bfc09144215a06ab2fefb.jpeg" />
+    <entry file="file://$PROJECT_DIR$/public/uploads/63e0ff2f161d61d09f9077b147d3f70a.jpeg" />
+    <entry file="file://$PROJECT_DIR$/public/uploads/2711be630d1d3ba105ef9377fe34d323.jpeg" />
+    <entry file="file://$PROJECT_DIR$/public/uploads/bd8047427f6fe8898244080bf83225c4.jpeg" />
     <entry file="file://$PROJECT_DIR$/src/Controller/HomeController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
+        <state relative-caret-position="300">
           <caret line="173" column="59" selection-start-line="173" selection-start-column="59" selection-end-line="173" selection-end-column="59" />
           <folding>
             <element signature="e#34#54#0#PHP" expanded="true" />
             <element signature="e#3122#3148#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/uploads/1e2aa7f1eb504116f47167c229e716db.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/uploads/Allegro (1).csv.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Repository/BonusRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/uploads/xls_program_allegro_lista-produktow-prowizja-nawet-05_18-06-01-07-2019.csv.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/uploads/xls_program_allegro_lista-produktow-prowizja-nawet-05_18-06-01-07-2019.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="1" column="406" selection-start-line="1" selection-start-column="406" selection-end-line="1" selection-end-column="406" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/uploads/przecinki.csv.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/allegro/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="58" column="28" selection-start-line="58" selection-start-column="28" selection-end-line="58" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Form/AllegroType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+          <folding>
+            <element signature="e#28#54#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Entity/AllegroCSV.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="64" column="17" selection-start-line="64" selection-start-column="17" selection-end-line="64" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/services.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="52" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/league/csv/src/Reader.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="358" column="20" selection-start-line="358" selection-start-column="20" selection-end-line="358" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Entity/Bonus.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="138" column="29" selection-start-line="138" selection-start-column="29" selection-end-line="138" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/AllegroController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1550">
+          <caret line="104" column="32" selection-start-line="104" selection-start-column="32" selection-end-line="104" selection-end-column="32" />
+          <folding>
+            <element signature="e#34#60#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
