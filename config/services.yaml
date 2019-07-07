@@ -31,3 +31,5 @@ services:
     App\Services\Fetcher:
         arguments:
             $forbiddenLink: 'www.google.com'
+
+    GuzzleHttp\Client:
